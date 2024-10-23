@@ -1,0 +1,36 @@
+div{
+    margin: 10px;
+    margin-left: 50%;
+    text-align: center;
+    width: 150px;
+    height: 140px;
+    border-radius: 10px;
+}
+.a{
+    background-color: brown;
+}
+.b{
+    background-color: aqua;
+}
+.c{
+    background-color: blueviolet;
+}
+.d{
+    background-color: cadetblue;
+}
+.a:hover{
+   transform: rotate(360deg);
+   transition: 5s;
+}
+.b:hover{
+    transform:translate(100px, 300px);
+    transition: 5s;
+ }
+ .c:hover{
+    transform: scale(100px,100px);
+    transition: 5s;
+ }
+ .d:hover{
+    transform: skew(50deg,25deg);
+    transition: 3s;
+ }
